@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elodie Flatshoes - Tugas Akhir</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="elodieFlats.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Amouré
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flatshoes.html">Flatshoes</a></li>
+                <li><a href="heels.html">Heels</a></li>
+                <li><a href="sandals.html">Sandals</a></li>
+                <li><a href="sneakers.html">Sneakers</a></li>
+            </ul>
+
+            <!-- navbar kiri -->
+            <div class="nav-right">
+                <input type="text" placeholder="What are you looking for?" class="search">
+                <div class="icons">
+                    <!-- Icon User -->
+                    <div class="user-menu-container">
+                        <i class="fa-solid fa-user" id="user-icon"></i>
+                        <div id="user-dropdown" class="user-dropdown closed">
+                            <a href="#">Login</a>
+                            <a href="#">Register</a>
+                            <a href="#">Profile</a>
+                            <a href="#">Logout</a>
+                        </div>
+                    </div>
+
+                    <!-- Icon Keranjang -->
+                    <div class="cart-menu-container">
+                        <i class="fa-solid fa-basket-shopping" id="cart-icon"></i>
+                        <div id="cart-dropdown" class="cart-dropdown closed">
+                            <a href="#">Your Cart</a>
+                            <a href="#">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="product-detail">
+
+        <!-- BAGIAN KIRI (GAMBAR) -->
+        <div class="product-images">
+            <!-- RADIO BUTTONS Tersembunyi -->
+            <input type="radio" name="img-select" id="img1" class="img-radio" checked>
+            <input type="radio" name="img-select" id="img2" class="img-radio">
+            <input type="radio" name="img-select" id="img3" class="img-radio">
+
+            <!-- MAIN IMAGE -->
+            <div class="main-image">
+                <img src="elodie1.jpeg" class="img1">
+                <img src="elodie2.jpeg" class="img2">
+                <img src="elodie3.jpeg" class="img3">
+            </div>
+
+            <!-- THUMBNAILS -->
+            <div class="thumbnails">
+                <label for="img1" class="thumb"><img src="elodie1.jpeg"></label>
+                <label for="img2" class="thumb"><img src="elodie2.jpeg"></label>
+                <label for="img3" class="thumb"><img src="elodie3.jpeg"></label>
+            </div>
+        </div>
+
+        <!-- BAGIAN KANAN (DETAIL) -->
+        <div class="product-info">
+            <h2>Amouré - Elodie Flats</h2>
+            <p class="product-description">
+                Amouré Elodie Flats terbuat dari bahan kulit sintetis berkualitas tinggi yang lembut di kaki,
+                memberikan kenyamanan sepanjang hari. Dengan desain elegan dan minimalis, sepatu ini cocok untuk
+                berbagai kesempatan, mulai dari jalan santai, bekerja, hingga acara semi-formal. Sol anti-slip
+                memastikan langkah stabil dan aman, sementara warna netralnya mudah dipadukan dengan berbagai outfit.
+            </p>
+            <p class="price">Rp 137.258</p>
+
+            <!-- Jumlah Pembelian-->
+            <div class="item-count">
+                <button class="item-count-btn">−</button>
+                <span class="item-count-value">1</span>
+                <button class="item-count-btn">+</button>
+            </div>
+
+            <!-- SIZE -->
+            <div class="size">
+                <label>Size:</label>
+                <div class="size-options">
+                    <button>36</button>
+                    <button>37</button>
+                    <button>38</button>
+                    <button>39</button>
+                    <button>40</button>
+                    <button>41</button>
+                </div>
+            </div>
+
+            <button class="add-btn">ADD TO CART</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>Amouré</h2>
+                <p>
+                    Amouré is a modern footwear brand designed for women
+                    who love elegance, comfort, and confidence in every step.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="flatshoes.html">Flatshoes</a></li>
+                    <li><a href="heels.html">Heels</a></li>
+                    <li><a href="sandals.html">Sandals</a></li>
+                    <li><a href="sneakers.html">Sneakers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: amoure@gmail.com</p>
+                <p>Phone: +62 812 345 678</p>
+                <p>Jakarta, Indonesia</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Amouré. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

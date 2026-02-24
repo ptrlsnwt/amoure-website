@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers - Tugas Akhir</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;700;800&display=swap">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Amouré
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flatshoes.html">Flatshoes</a></li>
+                <li><a href="heels.html">Heels</a></li>
+                <li><a href="sandals.html">Sandals</a></li>
+                <li><a href="sneakers.html">Sneakers</a></li>
+            </ul>
+
+            <!-- navbar kiri -->
+            <div class="nav-right">
+                <input type="text" placeholder="What are you looking for?" class="search">
+                <div class="icons">
+                    <!-- Icon User -->
+                    <div class="user-menu-container">
+                        <i class="fa-solid fa-user" id="user-icon"></i>
+                        <div id="user-dropdown" class="user-dropdown closed">
+                            <a href="#">Login</a>
+                            <a href="#">Register</a>
+                            <a href="#">Profile</a>
+                            <a href="#">Logout</a>
+                        </div>
+                    </div>
+
+                    <!-- Icon Keranjang -->
+                    <div class="cart-menu-container">
+                        <i class="fa-solid fa-basket-shopping" id="cart-icon"></i>
+                        <div id="cart-dropdown" class="cart-dropdown closed">
+                            <a href="#">Your Cart</a>
+                            <a href="#">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="product-section">
+        <h2 class="product-title">Sneakers Collection</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="sneakers1.jpeg" alt="Nova Sneakers">
+                <h3>Amouré - Nova Sneakers</h3>
+                <div class="price">Rp 263.999</div>
+                <a href="#" class="add-btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="sneakers2.jpeg" alt="Nyra Sneakers">
+                <h3>Amouré - Nyra Sneakers</h3>
+                <div class="price">Rp 242.378</div>
+                <a href="#" class="add-btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="sneakers3.jpeg" alt="Kaia Sneakers">
+                <h3>Amouré - Kaia Sneakers</h3>
+                <div class="price">Rp 247.558</div>
+                <a href="#" class="add-btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="sneakers4.jpeg" alt="Sienna Sneakers">
+                <h3>Amouré - Sienna Sneakers</h3>
+                <div class="price">Rp 218.982</div>
+                <a href="#" class="add-btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="sneakers5.jpeg" alt="Seren Sneakers">
+                <h3>Amouré - Seren Sneakers</h3>
+                <div class="price">Rp 229.990</div>
+                <a href="#" class="add-btn">View Details</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>Amouré</h2>
+                <p>
+                    Amouré is a modern footwear brand designed for women
+                    who love elegance, comfort, and confidence in every step.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="flatshoes.html">Flatshoes</a></li>
+                    <li><a href="heels.html">Heels</a></li>
+                    <li><a href="sandals.html">Sandals</a></li>
+                    <li><a href="sneakers.html">Sneakers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: amoure@gmail.com</p>
+                <p>Phone: +62 812 345 678</p>
+                <p>Jakarta, Indonesia</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Amouré. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
